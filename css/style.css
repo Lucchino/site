@@ -11,6 +11,25 @@ body {
     background-size: auto 100vh;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
+    font-size: 12px;
+}
+
+
+/* se a tela for pelo menos 400px */
+
+@media (min-width:400px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+
+/* breakpoint */
+
+@media (min-width: 700px) {
+    body {
+        font-size: 2em;
+    }
 }
 
 header {
@@ -21,7 +40,7 @@ header {
 }
 
 .menu {
-    background-color: white;
+    background-color: aquamarine;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -34,6 +53,11 @@ header {
 
 .menu li {
     list-style: none;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
 }
 
 a {
