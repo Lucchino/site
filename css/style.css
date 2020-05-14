@@ -9,7 +9,7 @@
 body {
     background-image: url('../img/fundo.jpg');
     background-size: auto 100vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     height: 100vh;
     font-size: 12px;
 }
@@ -71,7 +71,7 @@ a:hover {
 
 .site-subtitle,
 .site-title {
-    color: whitesmoke;
+    color: antiquewhite;
     text-align: center;
 }
 
@@ -85,7 +85,48 @@ a:hover {
     line-height: 1.5em;
 }
 
+.projetos {
+    color: antiquewhite;
+    padding: 2em;
+    height: 100vh;
+}
+
+.projetos h2 {
+    margin-bottom: 1.5em;
+}
+
+.projetos .grid {
+    display: grid;
+    gap: 2em;
+}
+
+@media (min-width: 560px) {
+    .projetos .grid {
+        grid-template-columns: 240px 240px;
+    }
+}
+
+@media (min-width: 880px) {
+    .projetos .grid {
+        align-content: center;
+        grid-template-columns: repeat(3, 260px);
+        justify-content: center;
+    }
+}
+
+.projetos figure {
+    text-align: center;
+}
+
 .img-portfolio {
     height: 180px;
-    width: 180px;
+    object-fit: cover;
+    width: 240px;
+}
+
+@media (min-width: 1200px) {
+    .img-portfolio {
+        height: auto;
+        width: 100%;
+    }
 }
