@@ -54,6 +54,7 @@ header {
 
 .menu li {
     list-style: none;
+    font-family: 'Inconsolata', monospace;
 }
 
 .menu a {
@@ -108,16 +109,42 @@ a:hover {
     line-height: 1.5em;
 }
 
+.sobre,
 .contato,
 .projetos {
     color: antiquewhite;
     padding: 2em;
-    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.sobre h2,
 .contato h2,
 .projetos h2 {
     margin-bottom: 1.5em;
+    font-family: 'Inconsolata', monospace;
+    /*font-family: 'Hind Guntur', sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
+    */
+}
+
+.sobre .avatar {
+    float: right;
+}
+
+.sobre .avatar img {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    object-position: left;
+    margin-left: 1.3em;
+    clip-path: polygon(100% 0%, 89% 49%, 100% 100%, 29% 100%, 3% 50%, 30% 0);
+}
+
+.sobre p {
+    text-indent: 2em;
+    margin-bottom: 0.6em;
+    text-align: justify;
 }
 
 .icons {
