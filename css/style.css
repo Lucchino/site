@@ -191,12 +191,42 @@ a:hover {
     object-fit: cover;
     object-position: center;
     transition: transform 600ms;
-    width: 240px;
+    width: 100%;
 }
 
-.img-portfolio:hover {
-    transform: scale(1.1);
+.flip-card {
+    perspective: 500px;
 }
+
+.flip-card:hover .card {
+    transform: rotateY(180deg);
+}
+
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 2s;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    background-color: aliceblue;
+    height: 180px;
+    width: 100%;
+    transform: rotateY(180deg);
+}
+
+
+/* .img-portfolio:hover {
+    transform: scale(1.1);
+} */
 
 @media (min-width: 1200px) {
     .img-portfolio {
