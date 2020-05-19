@@ -40,7 +40,8 @@ header {
 }
 
 .menu {
-    background-color: aquamarine;
+    background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 60%);
+    /* background-color: aquamarine; */
     position: fixed;
     top: 0;
     width: 100vw;
@@ -118,6 +119,10 @@ a:hover {
     margin-right: auto;
 }
 
+.contato {
+    padding-bottom: 1em;
+}
+
 .sobre h2,
 .contato h2,
 .projetos h2 {
@@ -138,7 +143,7 @@ a:hover {
     object-fit: cover;
     object-position: left;
     margin-left: 1.3em;
-    clip-path: polygon(100% 0%, 89% 49%, 100% 100%, 29% 100%, 3% 50%, 30% 0);
+    clip-path: polygon(50% 0%, 88% 7%, 100% 35%, 100% 70%, 83% 90%, 50% 100%, 18% 91%, 5% 70%, 4% 35%, 21% 9%);
 }
 
 .sobre p {
@@ -160,7 +165,7 @@ a:hover {
 
 .contato a:active,
 .contato a:hover {
-    text-shadow: 0 0 10px antiquewhite;
+    text-shadow: 0 0 10px lavender;
 }
 
 .projetos .grid {
@@ -233,4 +238,21 @@ a:hover {
         height: auto;
         width: 100%;
     }
+}
+
+.footer {
+    color: antiquewhite;
+    /* font-size: medium; */
+    padding-left: 2em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer p {
+    font-size: medium;
+}
+
+.footer a {
+    color: whitesmoke;
 }
