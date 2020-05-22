@@ -112,7 +112,7 @@ a:hover {
 
 .sobre,
 .contato,
-.projetos {
+.pets {
     color: antiquewhite;
     padding: 2em;
     margin-left: auto;
@@ -125,7 +125,7 @@ a:hover {
 
 .sobre h2,
 .contato h2,
-.projetos h2 {
+.pets h2 {
     margin-bottom: 1.5em;
     font-family: 'Inconsolata', monospace;
     /*font-family: 'Hind Guntur', sans-serif;
@@ -172,31 +172,31 @@ a:hover {
     text-shadow: 0 0 10px lavender;
 }
 
-.projetos .grid {
+.pets .grid {
     display: grid;
     gap: 2em;
     row-gap: 11em;
 }
 
 @media (min-width: 560px) {
-    .projetos .grid {
+    .pets .grid {
         grid-template-columns: 240px 240px;
     }
 }
 
 @media (min-width: 880px) {
-    .projetos .grid {
+    .pets .grid {
         align-content: center;
         grid-template-columns: repeat(3, 260px);
         justify-content: center;
     }
 }
 
-.projetos {
+.pets {
     margin-bottom: 2em;
 }
 
-.projetos figure {
+.pets figure {
     text-align: center;
 }
 
@@ -240,16 +240,17 @@ a:hover {
 }
 
 
-/* .img-portfolio:hover {
+/* .img-pet:hover {
     transform: scale(1.1);
 } */
 
-@media (min-width: 1200px) {
-    .img-portfolio {
+
+/* @media (min-width: 1200px) {
+    .img-pet {
         height: auto;
-        width: 100%;
+        width: 100%;  
     }
-}
+} */
 
 .footer {
     color: antiquewhite;
