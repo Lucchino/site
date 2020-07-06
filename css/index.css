@@ -1,0 +1,109 @@
+body {
+  font-family: 'Manjari', sans-serif;
+  background-color: #eaeff9;
+  color: #006774;
+}
+
+.img-beach {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid #6eadc0;
+}
+
+header h1 {
+  color: #ff0029;
+}
+div {
+  float: left;
+}
+input[type=text] {
+      width: 200px;
+      padding: 10px 15px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #008fa6;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #e09b8f;
+}
+
+.button {
+  background-color: #ff0029; /* Red */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 8px 0px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.button1 {
+  background-color: white; 
+  color: #006774; 
+  border: 3px solid #ff0029;
+}
+
+.button1:hover {
+  background-color: #ff0029;
+  color: white;
+}
+
+.answer {
+  margin-bottom: 50px;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ff0029;
+  border: 2px dotted #ff0029;
+  padding: 10px;
+}
+.page-footer {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #F2FFFC;
+  padding: 0.5em;
+  margin-top: 1em;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  text-shadow: 1px 1px black;
+  background-color: #005285;
+}
+
+aside {
+  float: right;
+  padding: 0px 0px 0px 20px;
+}
+
+aside nav a {
+  display: block;
+  padding: 5px;
+}
+
+aside nav a:hover {
+  color: #e09b8f;
+  font-weight: bold;
+  background-color: #005285;
+}
+
+a {
+  color: #005966;
+  text-decoration: none;
+}
+
+div {
+  margin-bottom: 30px;
+}
